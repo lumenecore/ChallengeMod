@@ -42,14 +42,6 @@
 </tr>
 </table>
 
-<h1><img alt="settings" width="24px" height="24px" src="https://github.com/user-attachments/assets/42a5bcb6-0616-4e38-9183-00a0998cabe3" style="height: 0.75em; vertical-align: middle;"> License</h1>
-
-The source code of ChallengeMod is licensed under the **MIT License**.
-
-See [`LICENSE`](LICENSE) for the complete license text.
-
-The **ChallengeMod** name, logo and official branding are not licensed under the MIT License. Modified or forked versions must not be presented as the official ChallengeMod project or imply affiliation with **LumeneCore** without permission.
-
 <h1><img alt="settings" width="24px" height="24px" src="https://github.com/user-attachments/assets/ce895a8e-0271-475b-9dfa-4e58b5fe5905" style="height: 0.75em; vertical-align: middle;"> Build</h1>
 
 > 🔨 **Build**
@@ -73,6 +65,14 @@ The **ChallengeMod** name, logo and official branding are not licensed under the
 > `Java 21+` · `Git` · `Internet connection`
 >
 > Internet access is required on the first build to download Gradle dependencies.
+
+<h1><img alt="settings" width="24px" height="24px" src="https://github.com/user-attachments/assets/42a5bcb6-0616-4e38-9183-00a0998cabe3" style="height: 0.75em; vertical-align: middle;"> License</h1>
+
+The source code of ChallengeMod is licensed under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for the complete license text.
+
+The **ChallengeMod** name, logo and official branding are not licensed under the MIT License. Modified or forked versions must not be presented as the official ChallengeMod project or imply affiliation with **LumeneCore** without permission.
 
 <h1><img alt="settings" width="24px" height="24px" src="https://github.com/user-attachments/assets/c127e792-f40c-4e79-995d-5dc958eca322" style="height: 0.75em; vertical-align: middle;"> Issues</h1>
 
