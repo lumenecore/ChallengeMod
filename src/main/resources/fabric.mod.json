@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "lumenechallenge",
+  "version": "${version}",
+  "name": "ChallengeMod",
+  "description": "A Minecraft challenge mod with randomized objectives, modifiers and unique survival difficulties. Created by YouTuber LumeneCore.",
+  "authors": [
+    "LumeneCore"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/LumeneCore"
+  },
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lumenechallenge.LumeneChallengeMod"
+    ],
+    "client": [
+      "com.lumenechallenge.client.LumeneChallengeClient"
+    ]
+  },
+  "mixins": [
+    "lumenechallenge.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.5",
+    "java": ">=21",
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*"
+  },
+  "icon": "assets/lumenechallenge/icon.png"
+}
