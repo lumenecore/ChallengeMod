@@ -1,0 +1,502 @@
+{
+  "maxRerolls": 5,
+  "rerollMultiplier": 0.95,
+  "ranks": [
+    {
+      "name": "SS",
+      "threshold": 0.95
+    },
+    {
+      "name": "S",
+      "threshold": 0.8
+    },
+    {
+      "name": "A",
+      "threshold": 0.7
+    },
+    {
+      "name": "B",
+      "threshold": 0.5
+    },
+    {
+      "name": "C",
+      "threshold": 0.0
+    }
+  ],
+  "modifiers": [
+    {
+      "id": 1,
+      "difficulty": "NORMAL",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "difficulty": "NORMAL",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "difficulty": "NORMAL",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "difficulty": "NORMAL",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "difficulty": "HARD",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 6,
+      "difficulty": "NORMAL",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 7,
+      "difficulty": "NORMAL",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 8,
+      "difficulty": "NORMAL",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 9,
+      "difficulty": "HARD",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 10,
+      "difficulty": "NORMAL",
+      "weight": 1,
+      "enabled": true
+    },
+    {
+      "id": 11,
+      "difficulty": "NORMAL",
+      "weight": 1,
+      "enabled": true
+    },
+    {
+      "id": 12,
+      "difficulty": "NORMAL",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "id": 13,
+      "difficulty": "HARD",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 14,
+      "difficulty": "NORMAL",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 15,
+      "difficulty": "NORMAL",
+      "weight": 2,
+      "enabled": true
+    },
+    {
+      "id": 16,
+      "difficulty": "HARD",
+      "weight": 1,
+      "enabled": true
+    },
+    {
+      "id": 17,
+      "difficulty": "HARD",
+      "weight": 1,
+      "enabled": true
+    }
+  ],
+  "tasks": [
+    {
+      "type": "JUMP",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 240,
+      "recommendedSecondsNormal": 240,
+      "recommendedSecondsHard": 240,
+      "recommendedSecondsInsane": 240,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "type": "OBTAIN_ITEM",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 400,
+      "recommendedSecondsNormal": 400,
+      "recommendedSecondsHard": 650,
+      "recommendedSecondsInsane": 1300,
+      "enabled": true,
+      "frequency": 3,
+      "modifiers": [
+        1
+      ]
+    },
+    {
+      "type": "BREAK_TOOL",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 650,
+      "recommendedSecondsNormal": 650,
+      "recommendedSecondsHard": 950,
+      "recommendedSecondsInsane": 1500,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    },
+    {
+      "type": "VISIT_COORDS",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 500,
+      "recommendedSecondsNormal": 500,
+      "recommendedSecondsHard": 500,
+      "recommendedSecondsInsane": 500,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "ENDER_PEARL",
+      "difficulty": "HARD",
+      "recommendedSeconds": 600,
+      "recommendedSecondsNormal": 600,
+      "recommendedSecondsHard": 600,
+      "recommendedSecondsInsane": 600,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        2,
+        4,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "type": "KILL_MOB",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 600,
+      "recommendedSecondsNormal": 600,
+      "recommendedSecondsHard": 1500,
+      "recommendedSecondsInsane": 2500,
+      "enabled": true,
+      "frequency": 3,
+      "modifiers": [
+        15,
+        17
+      ]
+    },
+    {
+      "type": "STAND_ON_BLOCK",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 600,
+      "recommendedSecondsNormal": 600,
+      "recommendedSecondsHard": 1200,
+      "recommendedSecondsInsane": 2400,
+      "enabled": true,
+      "frequency": 3,
+      "modifiers": []
+    },
+    {
+      "type": "UNDERWATER",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 180,
+      "recommendedSecondsNormal": 180,
+      "recommendedSecondsHard": 180,
+      "recommendedSecondsInsane": 180,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        9
+      ]
+    },
+    {
+      "type": "EAT_ITEM",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 480,
+      "recommendedSecondsNormal": 480,
+      "recommendedSecondsHard": 960,
+      "recommendedSecondsInsane": 1400,
+      "enabled": true,
+      "frequency": 3,
+      "modifiers": []
+    },
+    {
+      "type": "EAT_ANY",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 400,
+      "recommendedSecondsNormal": 400,
+      "recommendedSecondsHard": 400,
+      "recommendedSecondsInsane": 400,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": [
+        1,
+        2,
+        5,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "type": "ENCHANT_ITEM",
+      "difficulty": "HARD",
+      "recommendedSeconds": 1500,
+      "recommendedSecondsNormal": 1500,
+      "recommendedSecondsHard": 1500,
+      "recommendedSecondsInsane": 1500,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        1
+      ]
+    },
+    {
+      "type": "FISH",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 660,
+      "recommendedSecondsNormal": 660,
+      "recommendedSecondsHard": 660,
+      "recommendedSecondsInsane": 660,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        1,
+        2,
+        10
+      ]
+    },
+    {
+      "type": "SLEEP",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 1800,
+      "recommendedSecondsNormal": 1800,
+      "recommendedSecondsHard": 1800,
+      "recommendedSecondsInsane": 1800,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    },
+    {
+      "type": "SMELT_ITEM",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 800,
+      "recommendedSecondsNormal": 800,
+      "recommendedSecondsHard": 800,
+      "recommendedSecondsInsane": 800,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        1
+      ]
+    },
+    {
+      "type": "SHOOT_MOB_FROM_DISTANCE",
+      "difficulty": "HARD",
+      "recommendedSeconds": 700,
+      "recommendedSecondsNormal": 700,
+      "recommendedSecondsHard": 1000,
+      "recommendedSecondsInsane": 1000,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        9,
+        16,
+        13,
+        17
+      ]
+    },
+    {
+      "type": "DEAL_DAMAGE",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 300,
+      "recommendedSecondsNormal": 300,
+      "recommendedSecondsHard": 600,
+      "recommendedSecondsInsane": 1000,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "RENAME_ITEM",
+      "difficulty": "INSANE",
+      "recommendedSeconds": 1800,
+      "recommendedSecondsNormal": 1800,
+      "recommendedSecondsHard": 1800,
+      "recommendedSecondsInsane": 1800,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    },
+    {
+      "type": "TELEPORT_DIMENSION",
+      "difficulty": "HARD",
+      "recommendedSeconds": 1200,
+      "recommendedSecondsNormal": 1200,
+      "recommendedSecondsHard": 1200,
+      "recommendedSecondsInsane": 2400,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    },
+    {
+      "type": "REACH_Y_LEVEL",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 450,
+      "recommendedSecondsNormal": 450,
+      "recommendedSecondsHard": 450,
+      "recommendedSecondsInsane": 450,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "TRADE",
+      "difficulty": "HARD",
+      "recommendedSeconds": 1900,
+      "recommendedSecondsNormal": 1900,
+      "recommendedSecondsHard": 1900,
+      "recommendedSecondsInsane": 1900,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "FIND_STRUCTURE",
+      "difficulty": "HARD",
+      "recommendedSeconds": 2100,
+      "recommendedSecondsNormal": 2100,
+      "recommendedSecondsHard": 2100,
+      "recommendedSecondsInsane": 2100,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "VISIT_BIOME",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 900,
+      "recommendedSecondsNormal": 900,
+      "recommendedSecondsHard": 1800,
+      "recommendedSecondsInsane": 1800,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "WALK_DISTANCE",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 450,
+      "recommendedSecondsNormal": 450,
+      "recommendedSecondsHard": 450,
+      "recommendedSecondsInsane": 450,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        8,
+        2,
+        3
+      ]
+    },
+    {
+      "type": "BOAT_DISTANCE",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 550,
+      "recommendedSecondsNormal": 550,
+      "recommendedSecondsHard": 550,
+      "recommendedSecondsInsane": 550,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": [
+        4,
+        17
+      ]
+    },
+    {
+      "type": "TAME_MOB",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 1200,
+      "recommendedSecondsNormal": 1200,
+      "recommendedSecondsHard": 2100,
+      "recommendedSecondsInsane": 2100,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "EMPTY_INVENTORY",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 120,
+      "recommendedSecondsNormal": 120,
+      "recommendedSecondsHard": 120,
+      "recommendedSecondsInsane": 120,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    },
+    {
+      "type": "FULL_INVENTORY",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 120,
+      "recommendedSecondsNormal": 120,
+      "recommendedSecondsHard": 120,
+      "recommendedSecondsInsane": 120,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    },
+    {
+      "type": "CATCH_SELF_ON_ROD",
+      "difficulty": "NORMAL",
+      "recommendedSeconds": 500,
+      "recommendedSecondsNormal": 500,
+      "recommendedSecondsHard": 500,
+      "recommendedSecondsInsane": 500,
+      "enabled": true,
+      "frequency": 2,
+      "modifiers": []
+    },
+    {
+      "type": "LEASH_MOB",
+      "difficulty": "HARD",
+      "recommendedSeconds": 1500,
+      "recommendedSecondsNormal": 1500,
+      "recommendedSecondsHard": 1500,
+      "recommendedSecondsInsane": 1500,
+      "enabled": true,
+      "frequency": 1,
+      "modifiers": []
+    }
+  ]
+}

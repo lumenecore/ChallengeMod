@@ -1,0 +1,48 @@
+package com.lumenechallenge.challenge;
+
+import net.minecraft.block.BlockState;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.server.world.ServerWorld;
+import net.minecraft.text.Text;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.biome.Biome;
+
+public record ChallengeContext(
+        ServerPlayerEntity player,
+        ServerWorld world,
+        BlockPos position,
+        PlayerInventory inventory,
+        ItemStack handStack,
+        long worldTime,
+        RegistryEntry<Biome> biomeEntry,
+        boolean raining,
+        boolean thundering,
+        int stationaryTicks,
+        boolean diedThisTick,
+        BlockState minedBlockState,
+        BlockState placedBlockState,
+        LivingEntity killedEntity,
+        ItemStack craftedItem,
+        ItemStack consumedItem,
+        ItemStack enchantedItem,
+        ItemStack brokenItem,
+        boolean damagedThisTick,
+        double damageAmountThisTick,
+        LivingEntity damagedEntity,
+        boolean jumpedThisTick,
+        boolean onFire,
+        Text activeEffectName,
+        boolean fishedThisTick,
+        boolean caughtSelfOnRodThisTick,
+        boolean enderPearlTeleportedThisTick,
+        boolean shotMobFromDistanceThisTick,
+        double shotMobDistance,
+        LivingEntity tamedEntity,
+        boolean sleptThisTick,
+        boolean tradedThisTick
+) {}
