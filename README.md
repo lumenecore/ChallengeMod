@@ -3,8 +3,8 @@
 <img width="1024" height="256" alt="mod" src="https://github.com/user-attachments/assets/f9b4d730-9324-4b3f-a87f-13242c4c1089" />
 <p>
   <a href="https://modrinth.com/mod/challengemod"><img width="30%" height="80" alt="Modrinth" src="https://github.com/user-attachments/assets/88bdccab-1fc0-4bc7-8a62-d8c0825793a7"></a>
-  <a href="https://github.com/lumenecore/ChallengeMod"><img width="30%" height="80" alt="Donate" src="https://github.com/user-attachments/assets/883555bd-fe3c-4fe5-a975-d024224b0b65"></a>
-  <a href="https://github.com/lumenecore/ChallengeMod/issues"><img width="30%" height="80" alt="Wiki" src="https://github.com/user-attachments/assets/a5509bb7-da5f-4f94-9f68-ac6e5410a94a"></a>
+  <a href="https://donatepay.ru/don/lumenecore"><img width="30%" height="80" alt="Donate" src="https://github.com/user-attachments/assets/883555bd-fe3c-4fe5-a975-d024224b0b65"></a>
+  <a href="https://github.com/lumenecore/ChallengeMod/wiki"><img width="30%" height="80" alt="Wiki" src="https://github.com/user-attachments/assets/a5509bb7-da5f-4f94-9f68-ac6e5410a94a"></a>
 </p>
 </div>
 
