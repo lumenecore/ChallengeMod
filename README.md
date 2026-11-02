@@ -1,10 +1,11 @@
 <div align="center">
-  
-<img width="1024" height="256" alt="mod" src="https://github.com/user-attachments/assets/f9b4d730-9324-4b3f-a87f-13242c4c1089" />
+
+<img width="1024" height="256" alt="banner" src="https://github.com/user-attachments/assets/0c6f7ea0-b364-48b7-9030-312f6c4c3551" />
+
 <p>
-  <a href="https://modrinth.com/mod/challengemod"><img width="31%" height="80" alt="Modrinth" src="https://github.com/user-attachments/assets/88bdccab-1fc0-4bc7-8a62-d8c0825793a7"></a>
-  <a href="https://donatepay.ru/don/lumenecore"><img width="31%" height="80" alt="Donate" src="https://github.com/user-attachments/assets/883555bd-fe3c-4fe5-a975-d024224b0b65"></a>
-  <a href="https://github.com/lumenecore/ChallengeMod/wiki/ChallengeMod-Wiki"><img width="31%" height="80" alt="Wiki" src="https://github.com/user-attachments/assets/a5509bb7-da5f-4f94-9f68-ac6e5410a94a"></a>
+  <a href="https://modrinth.com/mod/challengemod"><img width="33%" alt="Modrinth" src="https://github.com/user-attachments/assets/9d0ef4e3-4cc6-40a9-a9c8-b00604e19334"></a>
+  <a href="https://www.youtube.com/@lumenecore"><img width="33%" alt="YouTube" src="https://github.com/user-attachments/assets/2bbf0750-ef7c-4f8c-a6ad-14722557ba99"></a>
+  <a href="https://t.me/lumenecore"><img width="33%" alt="Telegram" src="https://github.com/user-attachments/assets/147b6b6b-4b97-49d2-8242-974721b8af3b"></a>
 </p>
 </div>
 
