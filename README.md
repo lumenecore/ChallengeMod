@@ -3,9 +3,9 @@
 <img width="1024" height="256" alt="banner" src="https://github.com/user-attachments/assets/0c6f7ea0-b364-48b7-9030-312f6c4c3551" />
 
 <p>
-  <a href="https://modrinth.com/mod/challengemod"><img width="33%" alt="Modrinth" src="https://github.com/user-attachments/assets/9d0ef4e3-4cc6-40a9-a9c8-b00604e19334"></a>
-  <a href="https://www.youtube.com/@lumenecore"><img width="33%" alt="YouTube" src="https://github.com/user-attachments/assets/2bbf0750-ef7c-4f8c-a6ad-14722557ba99"></a>
-  <a href="https://t.me/lumenecore"><img width="33%" alt="Telegram" src="https://github.com/user-attachments/assets/147b6b6b-4b97-49d2-8242-974721b8af3b"></a>
+  <a href="https://modrinth.com/mod/challengemod"><img width="32%" alt="Modrinth" src="https://github.com/user-attachments/assets/9d0ef4e3-4cc6-40a9-a9c8-b00604e19334"></a>
+  <a href="https://www.youtube.com/@lumenecore"><img width="32%" alt="YouTube" src="https://github.com/user-attachments/assets/2bbf0750-ef7c-4f8c-a6ad-14722557ba99"></a>
+  <a href="https://t.me/lumenecore"><img width="32%" alt="Telegram" src="https://github.com/user-attachments/assets/147b6b6b-4b97-49d2-8242-974721b8af3b"></a>
 </p>
 </div>
 
