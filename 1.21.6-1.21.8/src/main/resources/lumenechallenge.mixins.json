@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "package": "com.lumenechallenge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemMixin",
+    "BlockItemMixin",
+    "ItemStackMixin",
+    "LivingEntityScaleMixin",
+    "LivingEntityDeathMixin",
+    "LivingEntityDamageMixin",
+    "LivingEntityChallengeEventsMixin",
+    "FishingBobberEntityMixin",
+    "EnderPearlEntityMixin",
+    "TameableEntityMixin",
+    "ServerWorldFreezeMixin",
+    "ScreenHandlerMixin",
+    "AnvilScreenHandlerMixin",
+    "FurnaceOutputSlotMixin",
+    "PlayerEntityMixin",
+    "AbstractHorseEntityMixin",
+    "PlayerInventoryMixin",
+    "ProjectileEntityMixin",
+    "VillagerEntityMixin",
+    "SaplingBlockMixin",
+    "ServerRecipeManagerMixin",
+    "ShapedRecipeAccessor",
+    "ShapelessRecipeAccessor",
+    "CreeperEntityMixin",
+    "CowEntityMixin",
+    "HoeItemMixin",
+    "FlintAndSteelItemMixin",
+    "FireChargeItemMixin",
+    "LootableContainerBlockEntityMixin",
+    "EntityRidingMixin",
+    "SweetBerryBushBlockMixin",
+    "CaveVinesBlockMixin"
+  ],
+  "client": [
+    "ClientLivingEntityScaleMixin",
+    "ScreenBlurMixin",
+    "CreateWorldScreenMixin",
+    "WorldListEntryMixin",
+    "KeyboardInputMixin",
+    "InputAccessor",
+    "KeyBindingAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

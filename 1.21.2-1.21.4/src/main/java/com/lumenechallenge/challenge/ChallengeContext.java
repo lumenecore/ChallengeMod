@@ -1,0 +1,78 @@
+package com.lumenechallenge.challenge;
+
+import net.minecraft.block.BlockState;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.server.world.ServerWorld;
+import net.minecraft.text.Text;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.biome.Biome;
+
+import java.util.List;
+
+public record ChallengeContext(
+        ServerPlayerEntity player,
+        ServerWorld world,
+        BlockPos position,
+        PlayerInventory inventory,
+        ItemStack handStack,
+        long worldTime,
+        RegistryEntry<Biome> biomeEntry,
+        boolean raining,
+        boolean thundering,
+        int stationaryTicks,
+        boolean diedThisTick,
+        BlockState minedBlockState,
+        BlockState placedBlockState,
+        LivingEntity killedEntity,
+        ItemStack craftedItem,
+        ItemStack consumedItem,
+        boolean consumedUnderwater,
+        ItemStack enchantedItem,
+        ItemStack brokenItem,
+        ItemStack smeltedItem,
+        boolean damagedThisTick,
+        double damageAmountThisTick,
+        LivingEntity damagedEntity,
+        boolean jumpedThisTick,
+        boolean onFire,
+        Text activeEffectName,
+        boolean fishedThisTick,
+        boolean caughtSelfOnRodThisTick,
+        boolean enderPearlTeleportedThisTick,
+        boolean shotMobFromDistanceThisTick,
+        double shotMobDistance,
+        LivingEntity tamedEntity,
+        boolean sleptThisTick,
+        boolean tradedThisTick,
+        boolean restoredRuinedPortalThisTick,
+        boolean creeperExplodedByPlayerThisTick,
+        boolean milkedCowThisTick,
+        boolean tilledSoilThisTick,
+        List<ItemStack> naturalLootItemsThisTick,
+        String naturalLootTableIdThisTick,
+        LivingEntity effectAppliedEntity,
+        String appliedEffectId,
+        String playerAppliedEffectId,
+        String deathCauseId,
+        String receivedDamageId,
+        String receivedDamageEntityId,
+        LivingEntity burnedEntity,
+        LivingEntity skeletonShotEntity,
+        String villagerProfessionId,
+        int villagerLevel,
+        String hitProjectileId,
+        String projectileTargetKind,
+        String projectileTargetId,
+        String grownSaplingId,
+        String harvestedCropId,
+        String storedItemId,
+        String storageId,
+        String mobInBoatId,
+        String riddenMobId,
+        int cameraPerspective
+) {}
